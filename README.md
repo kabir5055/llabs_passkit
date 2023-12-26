@@ -12,7 +12,7 @@ PHP library for creating iOS and Android Wallet Passes.
 You can install the package via composer:
 
 ```bash
-composer require chiiya/passes
+composer require llabskabir/passkit
 ```
 
 ## Usage
