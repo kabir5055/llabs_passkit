@@ -1,5 +1,5 @@
 {
-    "name": "llabs/passkit",
+    "name": "kabir/passkit",
     "description": "PHP library for creating iOS and Android Wallet Passes",
     "keywords": [
         "passkit",
