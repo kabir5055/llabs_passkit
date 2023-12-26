@@ -1,0 +1,50 @@
+{
+    "name": "llabs/passkit",
+    "description": "PHP library for creating iOS and Android Wallet Passes",
+    "keywords": [
+        "passkit",
+        "passes",
+        "wallet",
+        "apple",
+        "google",
+        "android",
+        "ios"
+    ],
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rawshan Kabir",
+            "email": "rawshankabir0@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "google/auth": "^1.18",
+        "spatie/data-transfer-object": "^3.7",
+        "ext-zip": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "chiiya/code-style-php": "^2.6",
+        "phpro/grumphp": "^1.9",
+        "phpunit/phpunit": "^9.5",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Luminouslabs\\PassesKit\\": "src"
+        }
+    },
+
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpro/grumphp": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
