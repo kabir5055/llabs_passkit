@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Enumerators;
+namespace Luminouslabs\PassesKit\Apple\Enumerators;
 
 final class TextAlignment
 {

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Google\Passes\EventTicketClass;
-use Chiiya\Passes\Google\Responses\EventTicketClassesResponse;
+use Luminouslabs\PassesKit\Google\Passes\EventTicketClass;
+use Luminouslabs\PassesKit\Google\Responses\EventTicketClassesResponse;
 
 /**
  * @method EventTicketClassesResponse index(string $issuerId, array $parameters = [])

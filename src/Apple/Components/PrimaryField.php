@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Components;
+namespace Luminouslabs\PassesKit\Apple\Components;
 
-use Chiiya\Passes\Apple\Enumerators\TextAlignment;
-use Chiiya\Passes\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Apple\Enumerators\TextAlignment;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
 use Spatie\DataTransferObject\Attributes\Strict;
 
 #[Strict]

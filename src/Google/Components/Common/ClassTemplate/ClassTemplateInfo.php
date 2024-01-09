@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Common\ClassTemplate;
+namespace Luminouslabs\PassesKit\Google\Components\Common\ClassTemplate;
 
-use Chiiya\Passes\Common\Component;
+use Luminouslabs\PassesKit\Common\Component;
 
 class ClassTemplateInfo extends Component
 {

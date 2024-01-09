@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Google\Passes\GiftCardClass;
-use Chiiya\Passes\Google\Responses\GiftCardClassesResponse;
+use Luminouslabs\PassesKit\Google\Passes\GiftCardClass;
+use Luminouslabs\PassesKit\Google\Responses\GiftCardClassesResponse;
 
 /**
  * @method GiftCardClassesResponse index(string $issuerId, array $parameters = [])

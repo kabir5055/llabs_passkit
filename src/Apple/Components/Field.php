@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Components;
+namespace Luminouslabs\PassesKit\Apple\Components;
 
-use Chiiya\Passes\Apple\Enumerators\DataDetector;
-use Chiiya\Passes\Apple\Enumerators\DateStyle;
-use Chiiya\Passes\Apple\Enumerators\NumberStyle;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Contains;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Apple\Enumerators\DataDetector;
+use Luminouslabs\PassesKit\Apple\Enumerators\DateStyle;
+use Luminouslabs\PassesKit\Apple\Enumerators\NumberStyle;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Contains;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
 use Spatie\DataTransferObject\Attributes\Strict;
 
 #[Strict]

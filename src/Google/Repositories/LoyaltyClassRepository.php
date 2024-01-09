@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Google\Passes\LoyaltyClass;
-use Chiiya\Passes\Google\Responses\LoyaltyClassesResponse;
+use Luminouslabs\PassesKit\Google\Passes\LoyaltyClass;
+use Luminouslabs\PassesKit\Google\Responses\LoyaltyClassesResponse;
 
 /**
  * @method LoyaltyClassesResponse index(string $issuerId, array $parameters = [])

@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\EventTicket;
+namespace Luminouslabs\PassesKit\Google\Components\EventTicket;
 
-use Chiiya\Passes\Common\Casters\ISO8601DateCaster;
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Enumerators\DoorsOpenLabel;
+use Luminouslabs\PassesKit\Common\Casters\ISO8601DateCaster;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Enumerators\DoorsOpenLabel;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class EventDateTime extends Component

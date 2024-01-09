@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Common;
+namespace Luminouslabs\PassesKit\Google\Components\Common;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Enumerators\MessageType;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Enumerators\MessageType;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class Message extends Component

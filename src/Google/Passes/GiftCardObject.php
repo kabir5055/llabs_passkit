@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Google\Components\Common\DateTime;
-use Chiiya\Passes\Google\Components\Common\Money;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Google\Components\Common\DateTime;
+use Luminouslabs\PassesKit\Google\Components\Common\Money;
 
 class GiftCardObject extends BaseObject
 {

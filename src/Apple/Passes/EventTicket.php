@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Passes;
+namespace Luminouslabs\PassesKit\Apple\Passes;
 
-use Chiiya\Passes\Apple\Traits\HasFields;
-use Chiiya\Passes\Apple\Traits\HasGroupingIdentifier;
+use Luminouslabs\PassesKit\Apple\Traits\HasFields;
+use Luminouslabs\PassesKit\Apple\Traits\HasGroupingIdentifier;
 use Spatie\DataTransferObject\Arr;
 use Spatie\DataTransferObject\Attributes\Strict;
 

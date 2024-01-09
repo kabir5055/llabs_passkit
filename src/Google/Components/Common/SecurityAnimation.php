@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Common;
+namespace Luminouslabs\PassesKit\Google\Components\Common;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Enumerators\AnimationType;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Enumerators\AnimationType;
 
 class SecurityAnimation extends Component
 {

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Google\Passes\TransitClass;
-use Chiiya\Passes\Google\Responses\TransitClassesResponse;
+use Luminouslabs\PassesKit\Google\Passes\TransitClass;
+use Luminouslabs\PassesKit\Google\Responses\TransitClassesResponse;
 
 /**
  * @method TransitClassesResponse index(string $issuerId, array $parameters = [])

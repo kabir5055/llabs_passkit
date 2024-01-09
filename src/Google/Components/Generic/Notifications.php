@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Generic;
+namespace Luminouslabs\PassesKit\Google\Components\Generic;
 
-use Chiiya\Passes\Common\Component;
+use Luminouslabs\PassesKit\Common\Component;
 
 /**
  * Indicates if the object needs to have notification enabled.

@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Validation\HexColor;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Components\Transit\PurchaseDetails;
-use Chiiya\Passes\Google\Components\Transit\TicketLeg;
-use Chiiya\Passes\Google\Components\Transit\TicketRestrictions;
-use Chiiya\Passes\Google\Enumerators\Transit\ConcessionCategory;
-use Chiiya\Passes\Google\Enumerators\Transit\PassengerType;
-use Chiiya\Passes\Google\Enumerators\Transit\TicketStatus;
-use Chiiya\Passes\Google\Enumerators\Transit\TripType;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Validation\HexColor;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\Transit\PurchaseDetails;
+use Luminouslabs\PassesKit\Google\Components\Transit\TicketLeg;
+use Luminouslabs\PassesKit\Google\Components\Transit\TicketRestrictions;
+use Luminouslabs\PassesKit\Google\Enumerators\Transit\ConcessionCategory;
+use Luminouslabs\PassesKit\Google\Enumerators\Transit\PassengerType;
+use Luminouslabs\PassesKit\Google\Enumerators\Transit\TicketStatus;
+use Luminouslabs\PassesKit\Google\Enumerators\Transit\TripType;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

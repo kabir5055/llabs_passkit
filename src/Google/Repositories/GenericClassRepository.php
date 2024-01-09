@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Google\Passes\GenericClass;
-use Chiiya\Passes\Google\Responses\GenericClassesResponse;
+use Luminouslabs\PassesKit\Google\Passes\GenericClass;
+use Luminouslabs\PassesKit\Google\Responses\GenericClassesResponse;
 
 /**
  * @method GenericClassesResponse index(string $issuerId, array $parameters = [])

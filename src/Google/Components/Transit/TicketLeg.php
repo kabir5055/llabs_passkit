@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Transit;
+namespace Luminouslabs\PassesKit\Google\Components\Transit;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\MinItems;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\MinItems;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

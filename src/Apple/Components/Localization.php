@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Components;
+namespace Luminouslabs\PassesKit\Apple\Components;
 
-use Chiiya\Passes\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\Required;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Attributes\Strict;
 use Spatie\DataTransferObject\Casters\ArrayCaster;

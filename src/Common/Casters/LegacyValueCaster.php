@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Common\Casters;
+namespace Luminouslabs\PassesKit\Common\Casters;
 
-use Chiiya\Passes\Common\LegacyValueEnumerator;
+use Luminouslabs\PassesKit\Common\LegacyValueEnumerator;
 use LogicException;
 use Spatie\DataTransferObject\Caster;
 

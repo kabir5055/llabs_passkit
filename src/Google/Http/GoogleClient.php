@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Http;
+namespace Luminouslabs\PassesKit\Google\Http;
 
-use Chiiya\Passes\Google\ServiceCredentials;
+use Luminouslabs\PassesKit\Google\ServiceCredentials;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;

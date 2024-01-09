@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Validation\MaxLength;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Components\Common\Uri;
-use Chiiya\Passes\Google\Enumerators\Offer\RedemptionChannel;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Validation\MaxLength;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\Common\Uri;
+use Luminouslabs\PassesKit\Google\Enumerators\Offer\RedemptionChannel;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class OfferClass extends BaseClass

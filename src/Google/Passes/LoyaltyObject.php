@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Validation\MaxLength;
-use Chiiya\Passes\Google\Components\Loyalty\LoyaltyPoints;
+use Luminouslabs\PassesKit\Common\Validation\MaxLength;
+use Luminouslabs\PassesKit\Google\Components\Loyalty\LoyaltyPoints;
 
 class LoyaltyObject extends BaseObject
 {

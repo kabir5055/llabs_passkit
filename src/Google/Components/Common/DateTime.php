@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Common;
+namespace Luminouslabs\PassesKit\Google\Components\Common;
 
-use Chiiya\Passes\Common\Casters\ISO8601DateCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Casters\ISO8601DateCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Required;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class DateTime extends Component

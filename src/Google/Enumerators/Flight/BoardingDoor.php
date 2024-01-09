@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Enumerators\Flight;
+namespace Luminouslabs\PassesKit\Google\Enumerators\Flight;
 
-use Chiiya\Passes\Common\LegacyValueEnumerator;
+use Luminouslabs\PassesKit\Common\LegacyValueEnumerator;
 
 final class BoardingDoor implements LegacyValueEnumerator
 {

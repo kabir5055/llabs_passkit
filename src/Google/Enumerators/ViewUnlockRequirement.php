@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Enumerators;
+namespace Luminouslabs\PassesKit\Google\Enumerators;
 
 final class ViewUnlockRequirement
 {

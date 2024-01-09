@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Flight\AirportInfo;
-use Chiiya\Passes\Google\Components\Flight\BoardingAndSeatingPolicy;
-use Chiiya\Passes\Google\Components\Flight\FlightHeader;
-use Chiiya\Passes\Google\Enumerators\Flight\FlightStatus;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Flight\AirportInfo;
+use Luminouslabs\PassesKit\Google\Components\Flight\BoardingAndSeatingPolicy;
+use Luminouslabs\PassesKit\Google\Components\Flight\FlightHeader;
+use Luminouslabs\PassesKit\Google\Enumerators\Flight\FlightStatus;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class FlightClass extends BaseClass

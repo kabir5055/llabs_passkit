@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Components;
+namespace Luminouslabs\PassesKit\Apple\Components;
 
-use Chiiya\Passes\Apple\Enumerators\EventType;
-use Chiiya\Passes\Common\Casters\ISO8601DateCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Apple\Enumerators\EventType;
+use Luminouslabs\PassesKit\Common\Casters\ISO8601DateCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Attributes\Strict;
 use Spatie\DataTransferObject\Casters\ArrayCaster;

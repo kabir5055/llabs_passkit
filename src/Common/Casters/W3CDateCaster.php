@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Common\Casters;
+namespace Luminouslabs\PassesKit\Common\Casters;
 
 use DateTimeInterface;
 use Spatie\DataTransferObject\Caster;

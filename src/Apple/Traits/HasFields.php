@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Traits;
+namespace Luminouslabs\PassesKit\Apple\Traits;
 
-use Chiiya\Passes\Apple\Components\AuxiliaryField;
-use Chiiya\Passes\Apple\Components\Field;
-use Chiiya\Passes\Apple\Components\SecondaryField;
-use Chiiya\Passes\Common\Validation\MaxItems;
+use Luminouslabs\PassesKit\Apple\Components\AuxiliaryField;
+use Luminouslabs\PassesKit\Apple\Components\Field;
+use Luminouslabs\PassesKit\Apple\Components\SecondaryField;
+use Luminouslabs\PassesKit\Common\Validation\MaxItems;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

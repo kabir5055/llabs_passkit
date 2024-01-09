@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Chiiya\CodeStyle\CodeStyle;
+use Luminouslabs\CodeStyle\CodeStyle;
 use Symplify\EasyCodingStandard\Config\ECSConfig;
 
 return static function (ECSConfig $config): void {

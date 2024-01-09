@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Validation\HexColor;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Components\Common\Money;
-use Chiiya\Passes\Google\Components\EventTicket\EventReservationInfo;
-use Chiiya\Passes\Google\Components\EventTicket\EventSeat;
+use Luminouslabs\PassesKit\Common\Validation\HexColor;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\Common\Money;
+use Luminouslabs\PassesKit\Google\Components\EventTicket\EventReservationInfo;
+use Luminouslabs\PassesKit\Google\Components\EventTicket\EventSeat;
 
 class EventTicketObject extends BaseObject
 {

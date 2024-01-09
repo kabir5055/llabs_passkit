@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Transit;
+namespace Luminouslabs\PassesKit\Google\Components\Transit;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
 
 class TicketRestrictions extends Component
 {

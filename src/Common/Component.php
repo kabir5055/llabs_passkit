@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Common;
+namespace Luminouslabs\PassesKit\Common;
 
 use JsonSerializable;
 use Spatie\DataTransferObject\DataTransferObject;

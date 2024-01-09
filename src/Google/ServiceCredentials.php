@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google;
+namespace Luminouslabs\PassesKit\Google;
 
 use InvalidArgumentException;
 use Spatie\DataTransferObject\DataTransferObject;

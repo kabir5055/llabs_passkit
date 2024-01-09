@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple;
+namespace Luminouslabs\PassesKit\Apple;
 
-use Chiiya\Passes\Apple\Components\Image;
-use Chiiya\Passes\Apple\Enumerators\ImageType;
-use Chiiya\Passes\Apple\Passes\BoardingPass;
-use Chiiya\Passes\Apple\Passes\Coupon;
-use Chiiya\Passes\Apple\Passes\EventTicket;
-use Chiiya\Passes\Apple\Passes\GenericPass;
-use Chiiya\Passes\Apple\Passes\Pass;
-use Chiiya\Passes\Apple\Passes\StoreCard;
-use Chiiya\Passes\Exceptions\ValidationException;
+use Luminouslabs\PassesKit\Apple\Components\Image;
+use Luminouslabs\PassesKit\Apple\Enumerators\ImageType;
+use Luminouslabs\PassesKit\Apple\Passes\BoardingPass;
+use Luminouslabs\PassesKit\Apple\Passes\Coupon;
+use Luminouslabs\PassesKit\Apple\Passes\EventTicket;
+use Luminouslabs\PassesKit\Apple\Passes\GenericPass;
+use Luminouslabs\PassesKit\Apple\Passes\Pass;
+use Luminouslabs\PassesKit\Apple\Passes\StoreCard;
+use Luminouslabs\PassesKit\Exceptions\ValidationException;
 use FilesystemIterator;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\MaxItems;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\CallbackOptions;
-use Chiiya\Passes\Google\Components\Common\ClassTemplate\ClassTemplateInfo;
-use Chiiya\Passes\Google\Components\Common\ImageModuleData;
-use Chiiya\Passes\Google\Components\Common\LinksModuleData;
-use Chiiya\Passes\Google\Components\Common\SecurityAnimation;
-use Chiiya\Passes\Google\Components\Common\TextModuleData;
-use Chiiya\Passes\Google\Enumerators\MultipleDevicesAndHoldersAllowedStatus;
-use Chiiya\Passes\Google\Enumerators\ViewUnlockRequirement;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\MaxItems;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\CallbackOptions;
+use Luminouslabs\PassesKit\Google\Components\Common\ClassTemplate\ClassTemplateInfo;
+use Luminouslabs\PassesKit\Google\Components\Common\ImageModuleData;
+use Luminouslabs\PassesKit\Google\Components\Common\LinksModuleData;
+use Luminouslabs\PassesKit\Google\Components\Common\SecurityAnimation;
+use Luminouslabs\PassesKit\Google\Components\Common\TextModuleData;
+use Luminouslabs\PassesKit\Google\Enumerators\MultipleDevicesAndHoldersAllowedStatus;
+use Luminouslabs\PassesKit\Google\Enumerators\ViewUnlockRequirement;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

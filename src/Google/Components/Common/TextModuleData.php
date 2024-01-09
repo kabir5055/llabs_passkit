@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Common;
+namespace Luminouslabs\PassesKit\Google\Components\Common;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\MaxLength;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\MaxLength;
 
 class TextModuleData extends Component
 {

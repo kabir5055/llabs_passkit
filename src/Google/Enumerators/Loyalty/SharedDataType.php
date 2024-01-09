@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Enumerators\Loyalty;
+namespace Luminouslabs\PassesKit\Google\Enumerators\Loyalty;
 
 final class SharedDataType
 {

@@ -1,11 +1,11 @@
 <?php
 
-use Chiiya\Passes\Apple\Passes\Coupon;
-use Chiiya\Passes\Apple\Components\Field;
-use Chiiya\Passes\Apple\Components\SecondaryField;
-use Chiiya\Passes\Apple\Enumerators\ImageType;
-use Chiiya\Passes\Apple\Components\Image;
-use Chiiya\Passes\Apple\PassFactory;
+use Luminouslabs\PassesKit\Apple\Passes\Coupon;
+use Luminouslabs\PassesKit\Apple\Components\Field;
+use Luminouslabs\PassesKit\Apple\Components\SecondaryField;
+use Luminouslabs\PassesKit\Apple\Enumerators\ImageType;
+use Luminouslabs\PassesKit\Apple\Components\Image;
+use Luminouslabs\PassesKit\Apple\PassFactory;
 
 $pass = new Coupon(
     description: '15% off purchases',

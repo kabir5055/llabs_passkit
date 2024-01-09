@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Exceptions;
+namespace Luminouslabs\PassesKit\Exceptions;
 
 use RuntimeException;
 use Throwable;

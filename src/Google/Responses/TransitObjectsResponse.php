@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Responses;
+namespace Luminouslabs\PassesKit\Google\Responses;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Google\Passes\TransitObject;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Google\Passes\TransitObject;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

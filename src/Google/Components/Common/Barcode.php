@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Common;
+namespace Luminouslabs\PassesKit\Google\Components\Common;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Enumerators\BarcodeRenderEncoding;
-use Chiiya\Passes\Google\Enumerators\BarcodeType;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Enumerators\BarcodeRenderEncoding;
+use Luminouslabs\PassesKit\Google\Enumerators\BarcodeType;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class Barcode extends Component

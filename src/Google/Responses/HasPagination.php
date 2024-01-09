@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Responses;
+namespace Luminouslabs\PassesKit\Google\Responses;
 
-use Chiiya\Passes\Google\Components\Common\Pagination;
+use Luminouslabs\PassesKit\Google\Components\Common\Pagination;
 
 trait HasPagination
 {

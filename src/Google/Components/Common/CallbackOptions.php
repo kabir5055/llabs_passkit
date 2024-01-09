@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Common;
+namespace Luminouslabs\PassesKit\Google\Components\Common;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Contains;
-use Chiiya\Passes\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Contains;
+use Luminouslabs\PassesKit\Common\Validation\Required;
 
 class CallbackOptions extends Component
 {

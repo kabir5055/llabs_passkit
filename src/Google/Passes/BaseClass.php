@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Validation\HexColor;
-use Chiiya\Passes\Common\Validation\MaxItems;
-use Chiiya\Passes\Common\Validation\MaxLength;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\LatLongPoint;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Components\Common\Message;
-use Chiiya\Passes\Google\Components\Common\Review;
-use Chiiya\Passes\Google\Components\Common\Uri;
-use Chiiya\Passes\Google\Enumerators\ReviewStatus;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Validation\HexColor;
+use Luminouslabs\PassesKit\Common\Validation\MaxItems;
+use Luminouslabs\PassesKit\Common\Validation\MaxLength;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\LatLongPoint;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\Common\Message;
+use Luminouslabs\PassesKit\Google\Components\Common\Review;
+use Luminouslabs\PassesKit\Google\Components\Common\Uri;
+use Luminouslabs\PassesKit\Google\Enumerators\ReviewStatus;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

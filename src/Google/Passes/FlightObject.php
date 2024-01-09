@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Validation\HexColor;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Flight\BoardingAndSeatingInfo;
-use Chiiya\Passes\Google\Components\Flight\ReservationInfo;
+use Luminouslabs\PassesKit\Common\Validation\HexColor;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Flight\BoardingAndSeatingInfo;
+use Luminouslabs\PassesKit\Google\Components\Flight\ReservationInfo;
 
 class FlightObject extends BaseObject
 {

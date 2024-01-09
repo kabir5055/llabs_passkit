@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Chiiya\CodeStyle\Config;
+use Luminouslabs\CodeStyle\Config;
 use PhpCsFixer\Finder;
 use PhpCsFixerCustomFixers\Fixer\CommentedOutFunctionFixer;
 
@@ -12,8 +12,8 @@ return (new Config)
         __DIR__ . '/tests',
     ]))
     ->setRules([
-        '@Chiiya' => true,
-        '@Chiiya:risky' => true,
+        '@Luminouslabs' => true,
+        '@Luminouslabs:risky' => true,
         CommentedOutFunctionFixer::name() => [
             'functions' => ['dd', 'dump', 'ini_set', 'print_r', 'var_dump', 'var_export'],
         ],

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
 
 class GiftCardClass extends BaseClass
 {

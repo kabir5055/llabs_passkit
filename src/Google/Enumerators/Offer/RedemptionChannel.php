@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Enumerators\Offer;
+namespace Luminouslabs\PassesKit\Google\Enumerators\Offer;
 
-use Chiiya\Passes\Common\LegacyValueEnumerator;
+use Luminouslabs\PassesKit\Common\LegacyValueEnumerator;
 
 final class RedemptionChannel implements LegacyValueEnumerator
 {

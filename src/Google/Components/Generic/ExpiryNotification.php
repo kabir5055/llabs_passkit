@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Generic;
+namespace Luminouslabs\PassesKit\Google\Components\Generic;
 
 class ExpiryNotification extends AbstractNotificationValue
 {

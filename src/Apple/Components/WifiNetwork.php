@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Components;
+namespace Luminouslabs\PassesKit\Apple\Components;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Required;
 use Spatie\DataTransferObject\Attributes\Strict;
 
 #[Strict]

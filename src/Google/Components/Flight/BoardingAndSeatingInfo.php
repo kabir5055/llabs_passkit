@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Flight;
+namespace Luminouslabs\PassesKit\Google\Components\Flight;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Enumerators\Flight\BoardingDoor;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Enumerators\Flight\BoardingDoor;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class BoardingAndSeatingInfo extends Component

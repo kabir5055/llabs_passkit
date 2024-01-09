@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Common\Validation;
+namespace Luminouslabs\PassesKit\Common\Validation;
 
 use Attribute;
 use Spatie\DataTransferObject\Validation\ValidationResult;

@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Components\EventTicket\EventDateTime;
-use Chiiya\Passes\Google\Components\EventTicket\EventVenue;
-use Chiiya\Passes\Google\Enumerators\EventTicket\ConfirmationCodeLabel;
-use Chiiya\Passes\Google\Enumerators\EventTicket\GateLabel;
-use Chiiya\Passes\Google\Enumerators\EventTicket\RowLabel;
-use Chiiya\Passes\Google\Enumerators\EventTicket\SeatLabel;
-use Chiiya\Passes\Google\Enumerators\EventTicket\SectionLabel;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\EventTicket\EventDateTime;
+use Luminouslabs\PassesKit\Google\Components\EventTicket\EventVenue;
+use Luminouslabs\PassesKit\Google\Enumerators\EventTicket\ConfirmationCodeLabel;
+use Luminouslabs\PassesKit\Google\Enumerators\EventTicket\GateLabel;
+use Luminouslabs\PassesKit\Google\Enumerators\EventTicket\RowLabel;
+use Luminouslabs\PassesKit\Google\Enumerators\EventTicket\SeatLabel;
+use Luminouslabs\PassesKit\Google\Enumerators\EventTicket\SectionLabel;
 use Spatie\DataTransferObject\Attributes\CastWith;
 
 class EventTicketClass extends BaseClass

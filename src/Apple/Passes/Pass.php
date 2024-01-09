@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Passes;
+namespace Luminouslabs\PassesKit\Apple\Passes;
 
-use Chiiya\Passes\Apple\Components\Barcode;
-use Chiiya\Passes\Apple\Components\Beacon;
-use Chiiya\Passes\Apple\Components\Image;
-use Chiiya\Passes\Apple\Components\Localization;
-use Chiiya\Passes\Apple\Components\Location;
-use Chiiya\Passes\Apple\Components\Nfc;
-use Chiiya\Passes\Apple\Components\Semantics;
-use Chiiya\Passes\Common\Casters\W3CDateCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Contains;
-use Chiiya\Passes\Common\Validation\MaxItems;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\RgbColor;
+use Luminouslabs\PassesKit\Apple\Components\Barcode;
+use Luminouslabs\PassesKit\Apple\Components\Beacon;
+use Luminouslabs\PassesKit\Apple\Components\Image;
+use Luminouslabs\PassesKit\Apple\Components\Localization;
+use Luminouslabs\PassesKit\Apple\Components\Location;
+use Luminouslabs\PassesKit\Apple\Components\Nfc;
+use Luminouslabs\PassesKit\Apple\Components\Semantics;
+use Luminouslabs\PassesKit\Common\Casters\W3CDateCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Contains;
+use Luminouslabs\PassesKit\Common\Validation\MaxItems;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\RgbColor;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

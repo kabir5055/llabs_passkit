@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Common\Component;
+use Luminouslabs\PassesKit\Common\Component;
 
 abstract class ObjectRepository extends BaseRepository implements ObjectRepositoryInterface
 {

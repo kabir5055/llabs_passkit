@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Google\Passes\OfferClass;
-use Chiiya\Passes\Google\Responses\OfferClassesResponse;
+use Luminouslabs\PassesKit\Google\Passes\OfferClass;
+use Luminouslabs\PassesKit\Google\Responses\OfferClassesResponse;
 
 /**
  * @method OfferClassesResponse index(string $issuerId, array $parameters = [])

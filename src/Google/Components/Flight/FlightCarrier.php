@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Flight;
+namespace Luminouslabs\PassesKit\Google\Components\Flight;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\MaxLength;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\MaxLength;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
 
 class FlightCarrier extends Component
 {

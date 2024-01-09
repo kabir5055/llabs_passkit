@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Enumerators;
+namespace Luminouslabs\PassesKit\Google\Enumerators;
 
-use Chiiya\Passes\Common\LegacyValueEnumerator;
+use Luminouslabs\PassesKit\Common\LegacyValueEnumerator;
 
 final class BarcodeType implements LegacyValueEnumerator
 {

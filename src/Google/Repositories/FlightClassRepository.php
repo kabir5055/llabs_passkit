@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Google\Passes\FlightClass;
-use Chiiya\Passes\Google\Responses\FlightClassesResponse;
+use Luminouslabs\PassesKit\Google\Passes\FlightClass;
+use Luminouslabs\PassesKit\Google\Responses\FlightClassesResponse;
 
 /**
  * @method FlightClassesResponse index(string $issuerId, array $parameters = [])

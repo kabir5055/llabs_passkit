@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Traits;
+namespace Luminouslabs\PassesKit\Apple\Traits;
 
 trait HasGroupingIdentifier
 {

@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Validation\MaxLength;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Components\Loyalty\DiscoverableProgram;
+use Luminouslabs\PassesKit\Common\Validation\MaxLength;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\Loyalty\DiscoverableProgram;
 
 class LoyaltyClass extends BaseClass
 {

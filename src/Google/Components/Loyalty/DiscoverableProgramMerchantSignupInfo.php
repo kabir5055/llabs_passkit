@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Loyalty;
+namespace Luminouslabs\PassesKit\Google\Components\Loyalty;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\Uri;
-use Chiiya\Passes\Google\Enumerators\Loyalty\SharedDataType;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\Uri;
+use Luminouslabs\PassesKit\Google\Enumerators\Loyalty\SharedDataType;
 
 class DiscoverableProgramMerchantSignupInfo extends Component
 {

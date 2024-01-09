@@ -1,23 +1,23 @@
 <?php
 
-use Chiiya\Passes\Google\Components\Common\Barcode;
-use Chiiya\Passes\Google\Components\Common\DateTime;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\ImageModuleData;
-use Chiiya\Passes\Google\Components\Common\LinksModuleData;
-use Chiiya\Passes\Google\Components\Common\LocalizedString;
-use Chiiya\Passes\Google\Components\Common\TimeInterval;
-use Chiiya\Passes\Google\Components\Common\Uri;
-use Chiiya\Passes\Google\Enumerators\BarcodeType;
-use Chiiya\Passes\Google\Enumerators\Offer\RedemptionChannel;
-use Chiiya\Passes\Google\Enumerators\ReviewStatus;
-use Chiiya\Passes\Google\Enumerators\State;
-use Chiiya\Passes\Google\Http\GoogleClient;
-use Chiiya\Passes\Google\JWT;
-use Chiiya\Passes\Google\Passes\OfferClass;
-use Chiiya\Passes\Google\Passes\OfferObject;
-use Chiiya\Passes\Google\Repositories\OfferClassRepository;
-use Chiiya\Passes\Google\ServiceCredentials;
+use Luminouslabs\PassesKit\Google\Components\Common\Barcode;
+use Luminouslabs\PassesKit\Google\Components\Common\DateTime;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\ImageModuleData;
+use Luminouslabs\PassesKit\Google\Components\Common\LinksModuleData;
+use Luminouslabs\PassesKit\Google\Components\Common\LocalizedString;
+use Luminouslabs\PassesKit\Google\Components\Common\TimeInterval;
+use Luminouslabs\PassesKit\Google\Components\Common\Uri;
+use Luminouslabs\PassesKit\Google\Enumerators\BarcodeType;
+use Luminouslabs\PassesKit\Google\Enumerators\Offer\RedemptionChannel;
+use Luminouslabs\PassesKit\Google\Enumerators\ReviewStatus;
+use Luminouslabs\PassesKit\Google\Enumerators\State;
+use Luminouslabs\PassesKit\Google\Http\GoogleClient;
+use Luminouslabs\PassesKit\Google\JWT;
+use Luminouslabs\PassesKit\Google\Passes\OfferClass;
+use Luminouslabs\PassesKit\Google\Passes\OfferObject;
+use Luminouslabs\PassesKit\Google\Repositories\OfferClassRepository;
+use Luminouslabs\PassesKit\Google\ServiceCredentials;
 
 $credentials = ServiceCredentials::parse('service_credentials.json');
 $client = GoogleClient::createAuthenticatedClient($credentials);

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Enumerators\Transit;
+namespace Luminouslabs\PassesKit\Google\Enumerators\Transit;
 
-use Chiiya\Passes\Common\LegacyValueEnumerator;
+use Luminouslabs\PassesKit\Common\LegacyValueEnumerator;
 
 final class FareClass implements LegacyValueEnumerator
 {

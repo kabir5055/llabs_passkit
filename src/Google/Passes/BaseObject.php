@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Validation\MaxItems;
-use Chiiya\Passes\Google\Components\Common\LatLongPoint;
-use Chiiya\Passes\Google\Components\Common\Message;
+use Luminouslabs\PassesKit\Common\Validation\MaxItems;
+use Luminouslabs\PassesKit\Google\Components\Common\LatLongPoint;
+use Luminouslabs\PassesKit\Google\Components\Common\Message;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

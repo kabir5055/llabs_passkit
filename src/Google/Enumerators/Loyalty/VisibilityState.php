@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Enumerators\Loyalty;
+namespace Luminouslabs\PassesKit\Google\Enumerators\Loyalty;
 
-use Chiiya\Passes\Common\LegacyValueEnumerator;
+use Luminouslabs\PassesKit\Common\LegacyValueEnumerator;
 
 final class VisibilityState implements LegacyValueEnumerator
 {

@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Passes;
+namespace Luminouslabs\PassesKit\Apple\Passes;
 
-use Chiiya\Passes\Apple\Enumerators\TransitType;
-use Chiiya\Passes\Apple\Traits\HasFields;
-use Chiiya\Passes\Apple\Traits\HasGroupingIdentifier;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Apple\Enumerators\TransitType;
+use Luminouslabs\PassesKit\Apple\Traits\HasFields;
+use Luminouslabs\PassesKit\Apple\Traits\HasGroupingIdentifier;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
 use Spatie\DataTransferObject\Arr;
 use Spatie\DataTransferObject\Attributes\Strict;
 

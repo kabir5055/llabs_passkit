@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Http;
+namespace Luminouslabs\PassesKit\Google\Http;
 
 use JsonSerializable;
 

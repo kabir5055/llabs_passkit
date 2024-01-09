@@ -1,22 +1,22 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Passes;
+namespace Luminouslabs\PassesKit\Google\Passes;
 
-use Chiiya\Passes\Common\Casters\LegacyValueCaster;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\MaxItems;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
-use Chiiya\Passes\Google\Components\Common\AppLinkData;
-use Chiiya\Passes\Google\Components\Common\Barcode;
-use Chiiya\Passes\Google\Components\Common\GroupingInfo;
-use Chiiya\Passes\Google\Components\Common\Image;
-use Chiiya\Passes\Google\Components\Common\ImageModuleData;
-use Chiiya\Passes\Google\Components\Common\LinksModuleData;
-use Chiiya\Passes\Google\Components\Common\RotatingBarcode;
-use Chiiya\Passes\Google\Components\Common\TextModuleData;
-use Chiiya\Passes\Google\Components\Common\TimeInterval;
-use Chiiya\Passes\Google\Enumerators\State;
+use Luminouslabs\PassesKit\Common\Casters\LegacyValueCaster;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\MaxItems;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Google\Components\Common\AppLinkData;
+use Luminouslabs\PassesKit\Google\Components\Common\Barcode;
+use Luminouslabs\PassesKit\Google\Components\Common\GroupingInfo;
+use Luminouslabs\PassesKit\Google\Components\Common\Image;
+use Luminouslabs\PassesKit\Google\Components\Common\ImageModuleData;
+use Luminouslabs\PassesKit\Google\Components\Common\LinksModuleData;
+use Luminouslabs\PassesKit\Google\Components\Common\RotatingBarcode;
+use Luminouslabs\PassesKit\Google\Components\Common\TextModuleData;
+use Luminouslabs\PassesKit\Google\Components\Common\TimeInterval;
+use Luminouslabs\PassesKit\Google\Enumerators\State;
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Casters\ArrayCaster;
 

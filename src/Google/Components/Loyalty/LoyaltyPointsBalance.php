@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Loyalty;
+namespace Luminouslabs\PassesKit\Google\Components\Loyalty;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Google\Components\Common\Money;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Google\Components\Common\Money;
 
 class LoyaltyPointsBalance extends Component
 {

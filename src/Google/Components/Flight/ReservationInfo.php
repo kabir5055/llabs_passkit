@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Components\Flight;
+namespace Luminouslabs\PassesKit\Google\Components\Flight;
 
-use Chiiya\Passes\Common\Component;
+use Luminouslabs\PassesKit\Common\Component;
 
 class ReservationInfo extends Component
 {

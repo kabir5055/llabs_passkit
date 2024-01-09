@@ -1,24 +1,24 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google;
+namespace Luminouslabs\PassesKit\Google;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\MinItems;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Google\Passes\EventTicketClass;
-use Chiiya\Passes\Google\Passes\EventTicketObject;
-use Chiiya\Passes\Google\Passes\FlightClass;
-use Chiiya\Passes\Google\Passes\FlightObject;
-use Chiiya\Passes\Google\Passes\GenericClass;
-use Chiiya\Passes\Google\Passes\GenericObject;
-use Chiiya\Passes\Google\Passes\GiftCardClass;
-use Chiiya\Passes\Google\Passes\GiftCardObject;
-use Chiiya\Passes\Google\Passes\LoyaltyClass;
-use Chiiya\Passes\Google\Passes\LoyaltyObject;
-use Chiiya\Passes\Google\Passes\OfferClass;
-use Chiiya\Passes\Google\Passes\OfferObject;
-use Chiiya\Passes\Google\Passes\TransitClass;
-use Chiiya\Passes\Google\Passes\TransitObject;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\MinItems;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Google\Passes\EventTicketClass;
+use Luminouslabs\PassesKit\Google\Passes\EventTicketObject;
+use Luminouslabs\PassesKit\Google\Passes\FlightClass;
+use Luminouslabs\PassesKit\Google\Passes\FlightObject;
+use Luminouslabs\PassesKit\Google\Passes\GenericClass;
+use Luminouslabs\PassesKit\Google\Passes\GenericObject;
+use Luminouslabs\PassesKit\Google\Passes\GiftCardClass;
+use Luminouslabs\PassesKit\Google\Passes\GiftCardObject;
+use Luminouslabs\PassesKit\Google\Passes\LoyaltyClass;
+use Luminouslabs\PassesKit\Google\Passes\LoyaltyObject;
+use Luminouslabs\PassesKit\Google\Passes\OfferClass;
+use Luminouslabs\PassesKit\Google\Passes\OfferObject;
+use Luminouslabs\PassesKit\Google\Passes\TransitClass;
+use Luminouslabs\PassesKit\Google\Passes\TransitObject;
 use Firebase\JWT\JWT as Encoder;
 
 class JWT extends Component

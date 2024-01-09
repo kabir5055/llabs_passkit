@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Google\Repositories;
+namespace Luminouslabs\PassesKit\Google\Repositories;
 
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Google\Http\ClientInterface;
-use Chiiya\Passes\Google\Passes\AbstractClass;
-use Chiiya\Passes\Google\Passes\AbstractObject;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Google\Http\ClientInterface;
+use Luminouslabs\PassesKit\Google\Passes\AbstractClass;
+use Luminouslabs\PassesKit\Google\Passes\AbstractObject;
 
 abstract class BaseRepository
 {

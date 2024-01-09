@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Chiiya\Passes\Apple\Components;
+namespace Luminouslabs\PassesKit\Apple\Components;
 
-use Chiiya\Passes\Apple\Enumerators\BarcodeFormat;
-use Chiiya\Passes\Common\Component;
-use Chiiya\Passes\Common\Validation\Required;
-use Chiiya\Passes\Common\Validation\ValueIn;
+use Luminouslabs\PassesKit\Apple\Enumerators\BarcodeFormat;
+use Luminouslabs\PassesKit\Common\Component;
+use Luminouslabs\PassesKit\Common\Validation\Required;
+use Luminouslabs\PassesKit\Common\Validation\ValueIn;
 use Spatie\DataTransferObject\Attributes\Strict;
 
 #[Strict]
