@@ -92,7 +92,7 @@ class AbstractObject extends Component
      * @var TextModuleData[]
      */
     #[CastWith(ArrayCaster::class, TextModuleData::class)]
-    #[MaxItems(10)]
+    #[MaxItems(20)]
     public array $textModulesData = [];
 
     /**
