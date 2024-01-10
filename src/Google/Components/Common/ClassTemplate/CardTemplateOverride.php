@@ -17,6 +17,6 @@ class CardTemplateOverride extends Component
      */
     #[CastWith(ArrayCaster::class, CardRowTemplateInfo::class)]
     #[Required]
-    #[MaxItems(20)]
+    #[MaxItems(100)]
     public array $cardRowTemplateInfos = [];
 }
