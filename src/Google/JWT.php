@@ -24,7 +24,7 @@ use Firebase\JWT\JWT as Encoder;
 class JWT extends Component
 {
     /** @var string */
-    final public const AUDIENCE = 'google1';
+    final public const AUDIENCE = 'google';
 
     /** @var string */
     final public const TYPE = 'savetoandroidpay';
@@ -38,7 +38,7 @@ class JWT extends Component
 
     /**
      * Required.
-     * Audience. The audience for Google Pay API for Passes Objects will always be google1.
+     * Audience. The audience for Google Pay API for Passes Objects will always be google.
      */
     public string $aud = self::AUDIENCE;
 
